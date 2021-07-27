@@ -1,6 +1,6 @@
 pacman -S --noconfirm awesome
 mkdir -p /home/callum/.config/awesome/
-cp /etc/xdg/awesome/rc.lua ~/.config/awesome/
+cp /etc/xdg/awesome/rc.lua /home/callum/.config/awesome/
 
 # Awesome Copycats
 
