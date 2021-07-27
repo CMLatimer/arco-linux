@@ -5,7 +5,7 @@ cp /etc/xdg/awesome/rc.lua /home/callum/.config/awesome/
 # Awesome Copycats
 
 git clone --depth 1 --recursive https://github.com/lcpz/awesome-copycats.git
-mv -bv awesome-copycats/* /home/callum/.config/awesome && rm - rf awesome-copycats
+mv -bv awesome-copycats/* /home/callum/.config/awesome && rm -rf awesome-copycats
 
 cd /home/callum/.config/awesome
 cp rc.lua.template rc.lua
