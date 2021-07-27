@@ -2,4 +2,4 @@ pacman -S --noconfirm alacritty
 
 # Copy over alacritty.yml
 
-cp ~/arco-linux/config/alacritty.yml ~/.config/alacritty/alacritty.yml
+cp /home/callum/arco-linux/config/alacritty.yml /home/callum/.config/alacritty/alacritty.yml
