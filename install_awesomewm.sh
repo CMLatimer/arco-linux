@@ -14,10 +14,12 @@ cp rc.lua.template rc.lua
 
 # Freedeskstop
 
+rm -rf /home/callum/.config/awesome/freedesktop
 git clone https://github.com/lcpz/awesome-freedesktop.git /home/callum/.config/awesome/freedesktop
 
 # Lain
 
+rm -rf /home/callum/.config/awesome/lain
 git clone https://github.com/lcpz/lain.git /home/callum/.config/awesome/lain
 
 #Copy over rc.lua
