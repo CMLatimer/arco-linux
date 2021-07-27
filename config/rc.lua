@@ -535,6 +535,9 @@ globalkeys = mytable.join(
     awful.key({ modkey }, "r", function () awful.screen.focused().mypromptbox:run() end,
               {description = "run prompt", group = "launcher"}),
 
+    awful.key({ modkey }, "d", function () awful.spawn("dmenu_run") end,
+              {decription = "dmenu", group = "lancher"}),
+
     awful.key({ modkey }, "x",
               function ()
                   awful.prompt.run {
