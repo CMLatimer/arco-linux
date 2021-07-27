@@ -1,4 +1,4 @@
--[[
+--[[
 
      Awesome WM configuration template
      github.com/lcpz
