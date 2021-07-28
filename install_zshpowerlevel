@@ -1,4 +1,4 @@
-sudo pacman -S zsh
+sudo pacman -S --noconfirm zsh
 chsh -s /bin/zsh
 yay -Sy --noconfirm ttf-meslo-nerd-font-powerlevel10k
 yay -Sy --noconfirm zsh-theme-powerlevel10k-git
